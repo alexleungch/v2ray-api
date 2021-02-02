@@ -13,7 +13,8 @@ with open('config.json') as json_file:
     temp = data['clients'] 
   
     # python object to be appended 
-    y = {"id":'97ecc095-d518-4b15-a4e4-906fa4f49bcb', 
+    y = {
+         "id":'97ecc095-d518-4b15-a4e4-906fa4f49bcb', 
          "level": "0", 
          "email": "nikhil@geeksforgeeks.org"
         } 
