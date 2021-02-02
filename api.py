@@ -19,7 +19,7 @@ with open('config.json') as json_file:
         } 
   
   
-    # appending data to emp_details  
+    # appending data to clients  
     temp.append(y) 
       
 write_json(data)
